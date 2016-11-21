@@ -27,3 +27,10 @@ function getRandomIntInclusive(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+//Returns a random Boolean value
+//This one I figured out for myself
+
+function getRandomBool(){
+  return (Math.random()<=0.5 ? true : false);
+}
